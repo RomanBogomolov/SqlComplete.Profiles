@@ -494,7 +494,9 @@
     <PropertyValue Name="Insert_Values_InsertSpaceAfterValuesKeyword">true</PropertyValue>
     <PropertyValue Name="Insert_Values_InsertSpacesWithinValuesExpressionsListBraces">false</PropertyValue>
     <PropertyValue Name="Insert_Values_StackValuesExpressionsList">true</PropertyValue>
+    <PropertyValue Name="Insert_Values_StackValuesExpressionsRowsList">false</PropertyValue>
     <PropertyValue Name="Insert_Values_StackValuesExpressionsListMode">8</PropertyValue>
+    <PropertyValue Name="Insert_Values_StackValuesExpressionsRowsListMode">1</PropertyValue>
     <PropertyValue Name="Insert_Subquery_SingleLine_AnySubquery">false</PropertyValue>
     <PropertyValue Name="Insert_Subquery_SingleLine_WhenRightMarginIsNotExceeded">false</PropertyValue>
     <SubOptions Name="Insert_Subquery_SingleLine_WhenSubqueryIsShorterThanXCharacters">
@@ -1045,7 +1047,6 @@
     </SubOptions>
     <PropertyValue Name="Merge_Into_With_InsertSpaceBeforeMergeHint">true</PropertyValue>
     <PropertyValue Name="Merge_Into_With_InsertSpacesWithinMergeHintBraces">false</PropertyValue>
-    <PropertyValue Name="Merge_Using_UseSameFormattingAsInSelect">true</PropertyValue>
     <PropertyValue Name="Merge_Using_LineBreakBeforeUsing">false</PropertyValue>
     <PropertyValue Name="Merge_Using_LineBreakAfterUsing">false</PropertyValue>
     <SubOptions Name="Merge_Using_IndentUsingKeyword">
@@ -1053,6 +1054,7 @@
       <PropertyValue Name="Size">0</PropertyValue>
       <PropertyValue Name="OnNewLineOnly">true</PropertyValue>
     </SubOptions>
+    <PropertyValue Name="Merge_Using_Join_UseSameFormattingAsInSelect">true</PropertyValue>
     <PropertyValue Name="Merge_Using_Join_LineBreakBeforeJoin">true</PropertyValue>
     <PropertyValue Name="Merge_Using_Join_LineBreakAfterJoin">false</PropertyValue>
     <PropertyValue Name="Merge_Using_Join_LineBreakBeforeOn">false</PropertyValue>
@@ -1086,6 +1088,31 @@
     <PropertyValue Name="Merge_Using_Join_WrapConditionMode">0</PropertyValue>
     <PropertyValue Name="Merge_Using_Join_WrapBeforeOperatorMode">1</PropertyValue>
     <PropertyValue Name="Merge_Using_Join_WrapAfterOperatorMode">1</PropertyValue>
+    <PropertyValue Name="Merge_Using_Values_LineBreakBeforeValues">false</PropertyValue>
+    <PropertyValue Name="Merge_Using_Values_LineBreakAfterValues">false</PropertyValue>
+    <PropertyValue Name="Merge_Using_Values_LineBreakAfterOpenBrace">false</PropertyValue>
+    <PropertyValue Name="Merge_Using_Values_LineBreakBeforeClosingBrace">false</PropertyValue>
+    <SubOptions Name="Merge_Using_Values_IndentValuesKeyword">
+      <PropertyValue Name="Indent">false</PropertyValue>
+      <PropertyValue Name="Size">0</PropertyValue>
+      <PropertyValue Name="OnNewLineOnly">true</PropertyValue>
+    </SubOptions>
+    <SubOptions Name="Merge_Using_Values_IndentValuesExpressionsListBraces">
+      <PropertyValue Name="Indent">false</PropertyValue>
+      <PropertyValue Name="Size">0</PropertyValue>
+      <PropertyValue Name="OnNewLineOnly">true</PropertyValue>
+    </SubOptions>
+    <SubOptions Name="Merge_Using_Values_IndentValuesExpressionsList">
+      <PropertyValue Name="Indent">false</PropertyValue>
+      <PropertyValue Name="Size">0</PropertyValue>
+      <PropertyValue Name="OnNewLineOnly">true</PropertyValue>
+    </SubOptions>
+    <PropertyValue Name="Merge_Using_Values_InsertSpaceAfterValuesKeyword">false</PropertyValue>
+    <PropertyValue Name="Merge_Using_Values_InsertSpacesWithinValuesExpressionsListBraces">false</PropertyValue>
+    <PropertyValue Name="Merge_Using_Values_StackValuesExpressionsList">false</PropertyValue>
+    <PropertyValue Name="Merge_Using_Values_StackValuesExpressionsRowsList">false</PropertyValue>
+    <PropertyValue Name="Merge_Using_Values_StackValuesExpressionsListMode">1</PropertyValue>
+    <PropertyValue Name="Merge_Using_Values_StackValuesExpressionsRowsListMode">1</PropertyValue>
     <PropertyValue Name="Merge_On_LineBreakBeforeOn">true</PropertyValue>
     <PropertyValue Name="Merge_On_LineBreakAfterOn">false</PropertyValue>
     <SubOptions Name="Merge_On_IndentOnKeyword">
@@ -1193,7 +1220,9 @@
     <PropertyValue Name="Merge_Then_Insert_Values_InsertSpaceAfterValuesKeyword">false</PropertyValue>
     <PropertyValue Name="Merge_Then_Insert_Values_InsertSpacesWithinValuesExpressionsListBraces">false</PropertyValue>
     <PropertyValue Name="Merge_Then_Insert_Values_StackValuesExpressionsList">false</PropertyValue>
+    <PropertyValue Name="Merge_Then_Insert_Values_StackValuesExpressionsRowsList">false</PropertyValue>
     <PropertyValue Name="Merge_Then_Insert_Values_StackValuesExpressionsListMode">1</PropertyValue>
+    <PropertyValue Name="Merge_Then_Insert_Values_StackValuesExpressionsRowsListMode">1</PropertyValue>
     <PropertyValue Name="Merge_Output_LineBreakBeforeOutput">true</PropertyValue>
     <PropertyValue Name="Merge_Output_LineBreakAfterOutput">false</PropertyValue>
     <SubOptions Name="Merge_Output_IndentOutputKeyword">
